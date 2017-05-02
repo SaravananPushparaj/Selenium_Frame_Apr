@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Aprbatch]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="RegSet1(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Scenario_component.Scenario_Search">
+        <methods>
+          <include name="testValidSearch" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
+          <include name="Launchapp"/>
+        </methods>
+      </class> <!-- Scenario_component.Scenario_Search -->
+      <class name="Scenario_component.Scenario_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Launchapp"/>
+        </methods>
+      </class> <!-- Scenario_component.Scenario_Login -->
+    </classes>
+  </test> <!-- RegSet1(failed) -->
+</suite> <!-- Failed suite [Aprbatch] -->

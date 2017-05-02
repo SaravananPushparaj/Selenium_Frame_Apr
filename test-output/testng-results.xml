@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17122" started-at="2017-05-02T09:33:36Z" finished-at="2017-05-02T09:33:53Z">
+    <groups>
+      <group name="regression">
+        <method signature="Scenario_Login.testValidLogin(java.util.Map)[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="testValidLogin" class="Scenario_component.Scenario_Login"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Scenario_Login.testInvalidLogin(java.util.Map)[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="testInvalidLogin" class="Scenario_component.Scenario_Login"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="17122" started-at="2017-05-02T09:33:36Z" finished-at="2017-05-02T09:33:53Z">
+      <class name="Scenario_component.Scenario_Login">
+        <test-method status="PASS" signature="Report_Extent()[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="Report_Extent" is-config="true" duration-ms="262" started-at="2017-05-02T15:03:36Z" finished-at="2017-05-02T15:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Extent -->
+        <test-method status="PASS" signature="Launchapp()[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="Launchapp" is-config="true" duration-ms="10911" started-at="2017-05-02T15:03:37Z" finished-at="2017-05-02T15:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchapp -->
+        <test-method status="PASS" signature="testInvalidLogin(java.util.Map)[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="testInvalidLogin" duration-ms="4648" started-at="2017-05-02T15:03:48Z" data-provider="dp_Invalidlogin" finished-at="2017-05-02T15:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute_Flag=Y, Uname=gfhg, TC_ID=GB_01, Script_name=InvalidLogin, Exp_Result=Sorry we were unable to complete this step because :, Pwd=dghfasf, Order_Set=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Scenario_component.Scenario_Login@5cc7c2a6]" name="tearDown" is-config="true" duration-ms="788" started-at="2017-05-02T15:03:52Z" finished-at="2017-05-02T15:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Scenario_component.Scenario_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
